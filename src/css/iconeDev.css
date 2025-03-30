@@ -1,0 +1,58 @@
+.dev-icon {
+    position: relative;
+    width: 80px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: bounce 1s infinite alternate;
+}
+
+.screen {
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code {
+    width: 0;
+    height: 10px;
+    background-color: #8e8e8e;
+    border-radius: 4px;
+    animation: typing 2s steps(5) infinite;
+}
+
+.keyboard {
+    width: 60%;
+    height: 10px;
+    background-color: #444;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}
