@@ -1062,3 +1062,22 @@ footer div {
     transform: scale(1.05);
 }
 
+
+#Contatos {
+    background-color: #151515;;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#Contatos h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+}
