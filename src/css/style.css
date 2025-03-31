@@ -1039,9 +1039,8 @@ footer div {
 .DivGroupBtn {
     display: flex;
     gap: 10px;
-    justify-content: center; /* Centraliza os botões */
+    justify-content: space-between; /* Centraliza os botões */
     align-items: center;
-    padding: 10px;
 }
 
 .DivGroupBtn button {
@@ -1055,6 +1054,10 @@ footer div {
     cursor: pointer;
     transition: 0.3s ease-in-out;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.DivGroupBtn button a {
+    color: white;
 }
 
 .DivGroupBtn button:hover {
@@ -1081,3 +1084,31 @@ footer div {
     padding-top: 30px;
     gap: 20px;
 }
+
+/* secoa landing page */
+.btnOrange  {
+    background-color: orange; /* Cor de fundo padrão */
+    border: none;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transição suave para o efeito hover */
+  }
+
+  .btnOrange a {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .btnOrange:hover {
+    background-color: rgb(146, 141, 136); /* Cor de fundo ao passar o mouse */
+  }
+  
+  .btnOrange:active {
+    background-color: #cc7a00; /* Cor de fundo ao clicar */
+  }
